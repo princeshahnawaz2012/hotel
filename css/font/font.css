@@ -1,0 +1,29 @@
+@font-face 
+{
+    font-family: arial;
+    src: "../../font/arial.ttf";
+}
+
+@font-face
+{
+    font-family : java;
+    src:url("../../font/jawa-palsu_0.ttf")
+}
+
+@font-face
+{
+    font-family : elephnt;
+    src:url('../../font/ELEPHNT.TTF')
+}
+
+@font-face
+{
+    font-family : elephnti;
+    src:url('../../font/ELEPHNTI.TTF')
+}
+
+@font-face
+{
+    font-family : dis;
+    src:url('../../font/DistTh___0.ttf')
+}

@@ -1,0 +1,296 @@
+ 
+.slide
+{
+    
+    padding: 39px 20px 20px;
+    height: 405px;
+    margin-top: 20px
+}
+
+.scrollable {
+    float:left;	
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.prev, a.next, a.prevPage, a.nextPage {
+    display:block;
+    width:18px;
+    height:18px;
+    background:url(../img/scrollable/arrow/left.png) no-repeat;
+    float:left;
+    margin:43px 10px;
+    cursor:pointer;
+    font-size:1px;
+}
+
+/* mouseover state */
+a.prev:hover, a.next:hover, a.prevPage:hover, a.nextPage:hover {
+    background-position:0px -18px;		
+}
+
+/* disabled navigational button */
+a.disabled {
+    visibility:hidden !important;		
+}
+
+/* next button uses another background image */
+a.next, a.nextPage {
+    background-image:url(../img/scrollable/arrow/right.png);
+    clear:right;	
+}
+
+
+
+/*********** navigator ***********/
+
+
+/* position and dimensions of the navigator */
+.navi {
+    margin-left:328px;
+    width:200px;
+    height:20px;
+}
+
+
+/* items inside navigator */
+.navi a {
+    width:8px;
+    height:8px;
+    float:left;
+    margin:3px;
+    background:url(../img/scrollable/arrow/navigator.png) 0 0 no-repeat;
+    display:block;
+    font-size:1px;
+}
+
+/* mouseover state */
+.navi a:hover {
+    background-position:0 -8px;      
+}
+
+/* active state (current page state) */
+.navi a.active {
+    background-position:0 -16px;     
+} 	
+
+/* main vertical scroll */
+#main {
+    position:relative;
+    overflow:hidden;
+    height: 368px;
+    width:436px
+}
+
+/* root element for pages */
+#pages {
+    position:absolute;
+    height:20000em;
+}
+
+/* single page */
+.page {
+    padding:10px;
+    height: 346px;
+    
+    width: 417px;
+    margin-left: 20px
+}
+
+/* root element for horizontal scrollables */
+.scrollable {
+    position:relative;
+    overflow:hidden;
+    width: 510px;
+    height: 347px;
+    margin-left: -10px;
+    margin-top: -30px;
+    padding-top: 20px;
+}
+
+/* root element for scrollable items */
+.scrollable .items {
+    width:20000em;
+    position:absolute;
+    clear:both;
+    height: 30px;
+   
+}
+
+/* single scrollable item */
+.item {
+    float:left;
+    cursor:pointer;
+    width:497px;
+    height:351px;
+    margin-top: -20px;
+    
+}
+.item img
+{
+    height: 366px;
+    width: 415px;
+    
+}
+/* main navigator */
+#main_navi {
+    float:right;
+    padding:0px !important;
+    margin:-347px 133px 0 0;
+    z-index: 1;
+}
+
+#main_navi li {
+    background-color:#333;
+    border-top:1px solid #666;
+    clear:both;
+    color:#FFFFFF;
+    font-size:12px;
+    height:75px;
+    list-style-type:none;
+    padding:10px;
+    width:114px;
+    cursor:pointer;
+}
+
+#main_navi li:hover {
+    background-color:#444;
+}
+
+#main_navi li.active {
+    background-color:#555;
+}
+
+#main_navi img {
+    float:left;
+    margin-right:10px;
+    height: 100px;
+    width: 100px;
+}
+#main_navi #img_1 img,#main_navi #img_2 img,#main_navi #img_3 img
+{
+    width: 134px;
+    position: absolute;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: -10px
+}
+#main_navi #img_1,#main_navi #img_2,#main_navi #img_3
+{
+    margin-bottom: 25px
+}
+
+
+#main_navi strong {
+    display:block;
+}
+
+#main div.navi {
+    margin-left:250px;
+    cursor:pointer;
+}
+.item ul li img
+{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+.item ul
+{
+    margin: 0;
+    padding: 0;
+}
+.item ul li
+{
+    list-style: none;
+    border-bottom: 2px solid #2C2C2C;
+    text-align: left;
+    opacity: 0.5;
+}
+.item ul li:hover
+{
+    opacity: 1;
+}
+.item ul li p
+{
+    display: inline-block;
+    color: #737880;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 30px
+}
+ul#sub_navi
+{
+    position: absolute;
+    margin-top: -294px;
+    margin-left: 466px
+}
+ul#sub_navi img
+{
+    position: relative;
+    height: 98px;
+    width: 50px;
+    margin-bottom: 30px;
+    display: none;
+    margin-left: -23px;
+    margin-top: -51px;
+}
+ul#main_navi_text
+{
+    position: absolute;
+    margin-left: 628px;
+    width: 150px;
+    margin-top: -328px;
+    height: 67px
+/*    background-color: #a7584b;*/
+    
+}
+
+.add_bg
+{
+    background-color: #aa5d53;
+    opacity: 0.6;
+    z-index: 1
+}
+.add_p
+{
+    opacity: 2;
+    color: white;
+    
+}
+.add_h3
+{
+    opacity: 1;
+    color: yellow;
+    text-align: right
+}
+
+ul#main_navi_text li
+{
+    
+    height: 65px;
+    margin-bottom: 30px;
+    word-wrap:break-word;
+    display: none
+}
+ul#main_navi_text li p
+{
+    overflow: hidden;
+    width: 126px;
+    height: 26px;
+    margin-left: 11px;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+}
+ul#main_navi_text h3
+{
+    color: yellow;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 134px;
+    overflow: hidden;
+    height: 18px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 10px
+}

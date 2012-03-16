@@ -1,0 +1,207 @@
+body {padding:0;}
+
+img {
+	border:0;		
+}
+
+.slide3
+{
+    border: 1px solid black;
+    background-color: #003399;
+    height: 463px;
+    margin-top: 3px
+}
+.slide3 img.batik_kiri_bawah
+{
+    position: absolute;
+    height: 204px;
+    margin-left: -1px;
+    width: 205px;
+    margin-top: 261px;
+    opacity: 0.5
+}
+.slide3 img.batik_kanan_atas
+{
+    position: absolute;
+    height: 204px;
+    width: 205px;
+    margin-left: 333px;
+    margin-top: -2px;
+    z-index: 2;
+    opacity: 0.5
+}
+.slide3 .navi_segitiga
+{
+    position: absolute;
+    margin-left: 55px;
+    height: auto;
+    width: auto;
+    margin-top: 1px;
+    z-index: 3;
+    
+}
+.slide3 .navi_segitiga ul
+{
+    margin: 0;
+    padding: 0;
+}
+.slide3 .navi_segitiga ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+.slide3 .navi_segitiga img
+{
+    height: 16px;
+    width: 25px;
+    margin-right: 98px;
+    display: none;
+    
+}
+
+#scroll {
+	position:relative;
+
+	overflow:hidden;
+	
+	width:423px;
+	padding:0px;
+	height:463px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+        margin-bottom: 20px;
+        margin-left: 57px
+}
+
+#tools {
+	width:9999em;
+	position:absolute;
+	height:315px;
+        margin-left: -15px
+}
+
+.tool {
+	float:left;
+	width:424px;
+	height:328px;
+	text-align:center;
+        margin-left: 14px;
+        margin-top: -2px
+}
+.tool img
+{
+    height: 320px;
+    width: 423px;
+    margin-top: 13px
+}
+
+.details {
+	font-size:18px;
+	color:#555;
+	margin-top:-20px;
+	background-color:transparent;
+	padding:5px 148px;
+}
+
+
+#thumbs {
+	border: 1px solid black;
+	height:90px;
+	position:absolute;
+	top:332px;
+	width:990px;
+	left:-8px;
+}
+
+.t {
+	padding:0 !important;
+	border:0 !important;
+}
+
+.t a {
+/*	background:transparent url(http://static.flowplayer.org/tools/img/demo-navi.jpg) no-repeat scroll -21px -90px;*/
+	margin-left:11px;
+	display:block;
+	width:99px;
+	float:left;
+	height:90px;
+	cursor:pointer;
+}
+
+.t a.active {
+	cursor:default !important;
+}
+
+.navi {
+	margin-left:-3px;
+	_margin-left:-3px;
+        margin-top: 14px;
+}
+.navi a img
+{
+    height: 97px;
+    width: 125px;
+    
+}
+.navi a
+{
+    display: inline-block;
+    position: absolute
+}
+.navi a#t1
+{
+    
+}
+.navi a#t2
+{
+    margin-left: 162px
+}
+.navi a#t3
+{
+    margin-left: 310px
+}
+
+
+
+/* CSS sprite for the navigation */
+/*#t0 		  { margin-left:20px; _margin-left:10px;}
+#t0.active { background-position:-21px 0 !important; }
+#t0:hover  { background-position:-21px -180px; }
+#t0:active { background-position:-21px -270px; }
+
+#t1			{ background-position:-325px -90px; }
+#t1:hover 	{ background-position:-325px -180px; }
+#t1:active	{ background-position:-325px -270px; }
+#t1.active	{ background-position:-325px 0 !important; }
+
+#t2			{ background-position:-435px -90px; }
+#t2:hover 	{ background-position:-435px -180px; }
+#t2:active	{ background-position:-435px -270px; }
+#t2.active	{ background-position:-435px 0 !important; }
+#t2
+{
+    margin-left: 136px
+}
+
+#t3			{ background-position:-545px -90px; }
+#t3:hover 	{ background-position:-545px -180px; }
+#t3:active	{ background-position:-545px -270px; }
+#t3.active	{ background-position:-545px 0 !important; }
+#t3
+{
+    margin-left: 265px
+}*/
+/*#t4			{ background-position:-655px -90px; }
+#t4:hover 	{ background-position:-655px -180px; }
+#t4:active	{ background-position:-655px -270px; }
+#t4.active	{ background-position:-655px 0 !important; }
+
+#t5			{ background-position:-765px -90px; }
+#t5:hover 	{ background-position:-765px -180px; }
+#t5:active	{ background-position:-765px -270px; }
+#t5.active	{ background-position:-765px 0 !important; }
+
+#t6			{ background-position:-875px -90px; }
+#t6:hover 	{ background-position:-875px -180px; }
+#t6:active	{ background-position:-875px -270px; }
+#t6.active	{ background-position:-875px 0 !important; }*/

@@ -1,0 +1,64 @@
+.header
+{
+    height: 155px;
+    background-image: url('../../image/header/header.gif');
+    text-align: center;
+    
+}
+.header ul
+{
+    margin: 0 0 31px 0;
+    padding: 15px 0 0 0;
+    
+}
+.header ul li
+{
+    list-style: none;
+    display: inline-block;
+    width: 75px;
+    margin: 0;
+    
+}
+.header ul li a
+{
+    color: white;
+    font-size: 12px;
+    font-family: arial;
+    z-index: 1
+}
+.header ul li a:hover
+{
+    color: yellow;
+}
+
+@font-face
+{
+    font-family : java;
+    src:url('../../font/jawa-palsu_0.ttf')
+}
+.header h2
+{
+    font-family: java;
+    color: red;
+    text-shadow: -1px -1px  white;
+    font-size: 39px;
+    margin-right: -20px;
+    margin-top: 45px;
+}
+.header h4
+{
+    color: white;
+    margin-left: -55px;
+    font-size: 17px;
+    margin-top: -10px;
+    font-family: elephnt;
+}
+
+.header #banner
+{
+   position: absolute;
+   margin-top: -140px;
+   margin-left: 0px;
+   display: none;
+   
+}

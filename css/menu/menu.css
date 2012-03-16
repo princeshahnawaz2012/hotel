@@ -1,0 +1,61 @@
+.menu
+{
+    text-align: center;
+    height: 40px;
+    background-color: #003399;
+   
+}
+.menu ul
+{
+    margin: 0;
+    padding: 10px 0 0 0;
+    
+}
+.menu ul li
+{
+    list-style: none;
+    display: inline-block;
+   
+}
+.menu ul li a
+{
+    color: white;
+    font-family: arial;
+}
+.menu ul li a:hover
+{
+    color: yellow
+}
+
+.menu img
+{
+    height: 30px;
+    width: 30px;
+    -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -o-border-radius: 6px;
+      position: absolute;
+      margin-top: -18px;
+      
+}
+.menu img#left_arrow
+{
+    margin-left: -211px
+}
+.menu img#home_arrow
+{
+    margin-left: -179px
+}
+.menu img#right_arrow
+{
+    margin-left:-147px
+}
+.menu li.list_length_side
+{
+    width: 150px
+}
+
+.menu li.list_length_center
+{
+    width: 100px
+}

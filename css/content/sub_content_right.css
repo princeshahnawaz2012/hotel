@@ -1,0 +1,24 @@
+.sub_content_right
+{
+    margin-top: 30px;
+    height: auto;
+}
+/*.sub_content_right p
+{
+    color: white;
+    margin-top: 2px;
+    margin-left: -3px;
+    font-family: arial;
+}*/
+.sub_content_right img#wayang
+{
+    height: 254px;
+    width: 287px;
+    position: absolute;
+    margin-top: 318px;
+    margin-left: 247px;
+    -webkit-border-radius: 56px;
+    -moz-border-radius: 56px;
+    -o-border-radius: 56px;
+    
+}

@@ -1,0 +1,113 @@
+@import "../slide/skin.css";
+@import "../font/font.css";
+body
+{
+    background-color: black;
+    
+}
+
+a
+{
+    text-decoration: none;
+    
+}
+
+.welcome
+{
+    
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-image: url('../../image/welcome/bg.gif');
+    z-index: 1
+}
+.welcome .logo_name
+{
+    position: absolute;
+    margin: 0 300px;
+    margin-top: -95px;
+    z-index: 2
+}
+
+.welcome ul
+{
+    /*margin: -490px -605px 0 0;*/
+    margin: -490px 11px 0 0;
+    padding: 0;
+    z-index: 1;
+    float: right
+}
+.welcome ul li
+{
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+    z-index: 1
+}
+
+
+.welcome ul li a
+{
+    color: white;
+    font-family: arial;
+    font-size: 21px
+}
+.welcome ul li a:hover
+{
+    color: yellow;
+}
+
+
+
+.welcome h2
+{
+    font-family: java;
+    color: red;
+    text-shadow: -1px -1px  white;
+    font-size: 42px;
+    margin-right: 19px;
+    margin-top: -15px;
+    
+}
+.welcome h3
+{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    margin-top: -45px;
+    font-size: 26px;
+    margin-left: 25px;
+    
+}
+.welcome h4
+{
+    color: white;
+    font-weight: bold;
+    margin-left: -40px;
+    font-size: 20px;
+    font-family: elephnt;
+    margin-top: -5px;
+    margin-left: -99px;
+}
+
+.welcome div.logo_name img
+{
+    position: relative;
+    height: 100px;
+    width: 264px;
+    margin-top: -53px;
+    margin-left: 58px;
+    z-index: -1
+}
+
+div.welcome img#img_utama
+{
+    height: 500px;
+    width: 800px;
+    z-index: -1;
+    position: relative
+}
