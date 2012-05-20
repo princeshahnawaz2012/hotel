@@ -31,7 +31,7 @@ $("p#jdl3").text("").css({
             //                "display":"none"
             //            });
             $(".content_left ul li:eq(0)").css({
-                "background-image": "url('<?php echo base_url(); ?>image/content/bg_batik4.jpg')"
+<!--                "background-image": "url('--><?php //echo base_url(); ?><!--image/content/bg_batik4.jpg')"-->
             });
             $(".content_left ul li:eq(1)").css({
                 "background-image": "url('<?php echo base_url(); ?>image/content/bg_batik_bwh.gif')",

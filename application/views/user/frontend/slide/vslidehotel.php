@@ -155,7 +155,7 @@
         /* CSS Document */
 
         /* slider layout */
-        .lof-slidecontent { position:relative;	overflow:hidden;	}
+        .lof-slidecontent { position:relative;overflow:hidden;		}
         .lof-slidecontent .preload{	height:100%;	width:100%;	position:absolute;	top:0;	left:0;	z-index:100000;	text-align:center;	background:#FFF}
         .lof-slidecontent .preload div{	height:100%;	width:100%;	background:transparent url(../images/load-indicator.gif) no-repeat scroll 50% 50%;}
 
@@ -289,7 +289,7 @@
         });
     </script>
 
-    <div id="jslidernews1" class="lof-slidecontent" style="width:537px; height:463px;">
+    <div id="jslidernews1" class="lof-slidecontent" style="width:749px; height:463px;">
         <div class="preload"><div></div></div>
         <!-- MAIN CONTENT --> 
         <div class="main-slider-content" style="width:980px; height:340px;">
@@ -299,7 +299,7 @@
 <?php if(isset($hotel)) {
                 foreach ($hotel as $r) { ?>
  <li>
-                    <img src="<?php echo base_url(); ?>uploads/<?php echo $r->gambarH?>" width="400px" height="300px"/>       
+                    <img src="<?php echo base_url(); ?>uploads/<?php echo $r->gambarH?>" width="400px" height="300px" style="margin-left: 171px"/>
 
                 </li> 
             
@@ -313,7 +313,7 @@
         <!-- NAVIGATOR -->
         <div class="navigator-content" style="width: 532px;height: 447px">
             <div class="button-next">Next</div>
-            <div class="navigator-wrapper" style="margin-top: 340px;margin-left: 63px;">
+            <div class="navigator-wrapper" style="margin-top: 340px;margin-left: -42px;">
                 <ul class="navigator-wrap-inner">
                     <?php $i=0; if(isset ($hotel)) {
                             foreach ($hotel as $r) { 
@@ -333,7 +333,7 @@ $i++;if($i=='1'){
             } }?>
                 </ul>
             </div>
-            <div  class="button-previous">Previous</div>
+            <div  class="button-previous"></div>
         </div> 
         <!----------------- END OF NAVIGATOR --------------------->
         <!-- BUTTON PLAY-STOP -->

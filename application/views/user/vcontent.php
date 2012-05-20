@@ -1,3 +1,8 @@
+
+
+
+
+
 <script type="text/javascript">
     $(document).ready(function(){
         $(".footer hr").css({
@@ -28,7 +33,7 @@ $(".menu ul li table tr td a#right").attr("href","<?php echo base_url(); ?>index
         <p id="img_text_pjk">news</p>         <?php }else {?>
         <p id="img_text_pjk" style="margin-left: 10px">berita</p>
             <?php }?>
-        
+
 
     </a>
     <?php $this->load->view('user/frontend/slide/vslide'); ?>

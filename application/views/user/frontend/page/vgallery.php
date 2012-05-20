@@ -20,7 +20,7 @@ $("p#jdl2").text("").css({
                 "display":"block"
             });
         $(".content_left ul li:eq(0)").css({
-            "background-image": "url('../../image/content/bg_batik3.jpg')"
+//            "background-image": "url('../../image/content/bg_batik3.jpg')"
         });
 
         //        $(".content_left img#img_xxx").css({

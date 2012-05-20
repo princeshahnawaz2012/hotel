@@ -1,3 +1,5 @@
+
+
 <!--<div class="slide">
 
     
@@ -432,7 +434,7 @@
         }
     </style>
 
-    <div id="jslidernews2" class="lof-slidecontent" style="width:760px; height:300px;margin-top: 25px">
+    <div id="jslidernews2" class="lof-slidecontent" style="width:760px; height:300px;margin-top:-30px;margin-left: -236px">
         <div class="preload"><div></div></div>
 
 

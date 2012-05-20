@@ -18,7 +18,8 @@ $("p#jdl2").text("").css({
                 "display":"block"
             });
             $(".content_left ul li:eq(0)").css({
-                "background-image": "url('<?php echo base_url(); ?>image/content/bg_batik5.jpg')"
+                "background-image": "url('<?php echo base_url(); ?>image/content/bg_batik5.jpg')",
+                "width":"217px"
             });
             $(".content_left ul li:eq(1)").css({
                 "height":"784px"

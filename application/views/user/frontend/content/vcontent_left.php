@@ -1,14 +1,14 @@
 <?php $bhs = $this->session->userdata('EN');?>
 <div class="content_left">
     <ul>
-        <li>
+        <li style="background-color: white;width: 1px">
 <!--            <img src="<?php echo base_url(); ?>image/content/gmbr_kiri.gif" class="img1" id="img_x"/>
             <img src="<?php echo base_url(); ?>image/content/gmbr_kiri2.gif" class="img1" id="img_xx"/>
             <img src="<?php echo base_url(); ?>image/content/gmbr_kiri3.gif" class="img1" id="img_xxx"/>
             <img src="<?php echo base_url(); ?>image/content/gmbr_kiri4.gif" class="img1" id="img_xxxx"/>
             <img src="<?php echo base_url(); ?>image/content/gmbr_kiri5.gif" class="img1" id="img_xxxxx"/>-->
         </li>
-        <li style="text-align: center;overflow: hidden">
+        <li style="text-align: center;overflow: hidden;" id="hilang">
             <img src="<?php echo base_url(); ?>image/content/atas.gif" class="img2"/>
 <p id="jdl2"></p>
             <a id="<?php echo base_url(); ?>index.php/user/cpagenews"><p id="jdl"></p></a>

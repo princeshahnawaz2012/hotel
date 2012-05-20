@@ -9,7 +9,8 @@ img {
     border: 1px solid black;
     background-color: #003399;
     height: 463px;
-    margin-top: 3px
+    margin-top: 3px;
+    margin-left: -211px
 }
 .slide3 img.batik_kiri_bawah
 {
@@ -25,7 +26,7 @@ img {
     position: absolute;
     height: 204px;
     width: 205px;
-    margin-left: 333px;
+    margin-left: 545px;
     margin-top: -2px;
     z-index: 2;
     opacity: 0.5

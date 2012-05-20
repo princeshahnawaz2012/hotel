@@ -53,13 +53,13 @@
                 }, 'google_translate_element');
             }
     </script><script src="<?php echo base_url(); ?>js/id.js"></script>-->
-    <audio autoplay="autoplay">
-        <source src="<?php echo base_url(); ?>audio/AYUN_2.ogg" type="audio/ogg" />
-    </audio>
+<!--    <audio autoplay="autoplay">-->
+<!--        <source src="--><?php //echo base_url(); ?><!--audio/AYUN_2.ogg" type="audio/ogg" />-->
+<!--    </audio>-->
     <div class="page_wrap"> <!--start wrap-->
         <div class="header">
-        
-    
+
+
 
             <?php $bhs= $this->uri->segment(2);
 $b3= $this->uri->segment(3);
@@ -75,13 +75,13 @@ if($b3 !="success" && $b3 != "error" && $b3 != "pesan"){
             <ul>
                 <li style="border-right: 1px solid white;margin-left: 17px;"><a href="<?php echo $bhs."/ubahBhs/en";?>">english</a></li>
                 <li><a href="<?php echo $bhs."/ubahBhs/id";?>"><div style="color:yellow">indonesia</div></a></li>
-            </ul><?php } 
-            
+            </ul><?php }
+
             }else {?>
 <?php if($this->session->userdata('EN') == "en") { ?>
             <ul>
                 <li style="border-right: 1px solid white;margin-left: 17px;"><a href="<?php echo base_url()."index.php/$b1/$b2/"."/ubahBhs/en";?>"><div style="color:yellow">english</div></a></li>
-                <li><a href="<?php echo base_url()."index.php/$b1/$b2/"."/ubahBhs/id";?>">indonesia</a></li>
+                <li><a href="<?php echo base_url()."index.php/$b1/$b2/"."/ubahBhs/id";?>" id="indo">indonesia</a></li>
             </ul>
                 <?php }else {?>
             <ul>

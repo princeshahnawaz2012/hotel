@@ -289,7 +289,7 @@
         });
     </script>
 
-    <div id="jslidernews1" class="lof-slidecontent" style="width:537px; height:463px;">
+    <div id="jslidernews1" class="lof-slidecontent" style="width:749px; height:463px;">
         <div class="preload"><div></div></div>
         <!-- MAIN CONTENT --> 
         <div class="main-slider-content" style="width:980px; height:340px;">
@@ -299,7 +299,7 @@
 <?php if(isset($galeri)) {
                 foreach ($galeri as $r) { ?>
  <li>
-                    <img src="<?php echo base_url(); ?>uploads/<?php echo $r->gambarG?>" width="400px" height="300px"/>       
+                    <img src="<?php echo base_url(); ?>uploads/<?php echo $r->gambarG?>" width="400px" height="300px" style="margin-left: 171px"/>
 
                 </li> 
             
@@ -313,7 +313,7 @@
         <!-- NAVIGATOR -->
         <div class="navigator-content" style="width: 532px;height: 447px">
             <div class="button-next">Next</div>
-            <div class="navigator-wrapper" style="margin-top: 340px;margin-left: 63px;">
+            <div class="navigator-wrapper" style="margin-top: 340px;margin-left: -42px;">
                 <ul class="navigator-wrap-inner">
                     <?php $i=0; if(isset ($galeri)) {
                             foreach ($galeri as $r) { 

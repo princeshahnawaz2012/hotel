@@ -102,10 +102,9 @@ if ($mskC) {
         $bhs = $this->session->userdata('EN');
         $data['pengunjung'] = $this->model_conter->counAll();
         $data['news'] = $this->model_berita->getSlideNews($bhs);
-        $this->load->view('user/vheader',$data);
-        $this->load->view('user/vmenu');
-        $this->load->view('user/vcontent');
-        $this->load->view('user/vfooter');
+
+        $this->load->view('user/vcontent_rev',$data);
+
     }
 
     function ubahBhs() {

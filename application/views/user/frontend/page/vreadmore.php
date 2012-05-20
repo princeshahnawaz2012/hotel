@@ -15,7 +15,7 @@
             "display":"block"
         });
         $(".content_left ul li:eq(0)").css({
-            "background-image": "url('<?php echo base_url(); ?>image/content/bg_batik3.jpg')"
+<!--            "background-image": "url('--><?php //echo base_url(); ?><!--image/content/bg_batik3.jpg')"-->
         });
 
         $(".content_left ul li:eq(1)").css({
@@ -37,7 +37,7 @@
 <div class="content">
     <?php $this->load->view('user/frontend/content/vcontent_left'); ?>
     <div class="content_right">
-        <?php $this->load->view('user/frontend/slide/vslide3'); ?>
+        <?php $this->load->view('user/frontend/slide/vslide'); ?>
         <div class="sub_content_right">
             <?php if(isset ($berit)) {
                 foreach ($berit as $r) { ?>
