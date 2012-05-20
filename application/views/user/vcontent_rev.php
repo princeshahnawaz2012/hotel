@@ -84,31 +84,61 @@
             #img-left
             {
                 position: absolute;
-                left: 100px;
+                left: 8px;
+                top: -56px;
+                width: 240px;
+                height: 885px;
+                transform: rotate(180deg);
+                -ms-transform: rotate(180deg); /* IE 9 */
+                -webkit-transform: rotate(180deg); /* Safari and Chrome */
+                -o-transform: rotate(180deg); /* Opera */
+                -moz-transform: rotate(180deg); /* Firefox */
 
             }
             #img-right
             {
                 position: absolute;
-                right: 100px;
+                right: 13px;
+                top: -56px;
+                width: 240px;
+                height: 885px
 
             }
-            #img1,#img2,#img4,#img5
+            #img1
             {
                 height: 535px;
-                width: 154px;
-                margin-top: 27px
+                width:145px;
+                margin-top: 56px
+            }
+            #img2
+            {
+                height: 535px;
+                width:141px;
+                margin-top: 45px
             }
             #img3
             {
-                height: 570px;
-                width: 154px
+                height: 593px;
+                width: 167px;
+                margin-left: -7px
+            }
+            #img4
+            {
+                height: 535px;
+                width:155px;
+                margin-top: 47px
+            }
+            #img5
+            {
+                height: 535px;
+                width:160px;
+                margin-top: 56px
             }
         </style>
 
         <div id="home" class="slide2" style="margin-top: 20px">
             <?php if($this->session->userdata('EN') == "en") { ?>
-            <img src="<?php echo base_url('image/new/2.png'); ?>" alt="" id="img-left">
+            <img src="<?php echo base_url('image/new/3.png'); ?>" alt="" id="img-left">
 <!--            <ul>-->
 <!---->
 <!--                <li><a href="--><?php //echo base_url(); ?><!--index.php/user/cpagenews"><img src="--><?php //echo base_url(); ?><!--image/slide/home.png"/><p style="margin-left: 47px">NEWS</p></a></li>-->
@@ -267,7 +297,7 @@
 
 
     </div>
-<img src="<?php echo base_url('image/new/bawah.png'); ?>" alt=""  style="position: relative;height: 168px;width: 786px">
+<img src="<?php echo base_url('image/new/bawah.png'); ?>" alt=""  style="position: relative;height: 153px;width: 786px;margin-top: 49px">
 
 <!--footer-->
 

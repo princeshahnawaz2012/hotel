@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94cbec71-3479-45fe-9a33-ac39915efb45" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/hotel.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/user/cpagehome.php" afterPath="$PROJECT_DIR$/application/controllers/user/cpagehome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/user/cpagenews.php" afterPath="$PROJECT_DIR$/application/controllers/user/cpagenews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/content/vcontent_left.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/content/vcontent_left.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vgallery.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vgallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vhotel.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vhotel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vnews.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vnews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vpack.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vpack.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vprofile.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vprofile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vreadmore.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vreadmore.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vreadmoreG.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vreadmoreG.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vrent.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vrent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vreservation.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vreservation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vterm.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vterm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/page/vtestimonial.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/page/vtestimonial.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/slide/vslide.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/slide/vslide.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/slide/vslide3.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/slide/vslide3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/slide/vslidegall.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/slide/vslidegall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/slide/vslidehotel.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/slide/vslidehotel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/frontend/slide/vsliderent.php" afterPath="$PROJECT_DIR$/application/views/user/frontend/slide/vsliderent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/vcontent.php" afterPath="$PROJECT_DIR$/application/views/user/vcontent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/vheader.php" afterPath="$PROJECT_DIR$/application/views/user/vheader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/slide/slide3.css" afterPath="$PROJECT_DIR$/css/slide/slide3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/user/vcontent_rev.php" afterPath="$PROJECT_DIR$/application/views/user/vcontent_rev.php" />
     </list>
     <ignored path="hotel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +27,7 @@
       <file leaf-file-name="vcontent_rev.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/user/vcontent_rev.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="30" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.46153846">
+            <state line="86" column="26" selection-start="3102" selection-end="3102" vertical-scroll-proportion="0.08050089">
               <folding />
             </state>
           </provider>
@@ -469,7 +442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/user/vcontent_rev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="30" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.46153846">
+        <state line="86" column="26" selection-start="3102" selection-end="3102" vertical-scroll-proportion="0.08050089">
           <folding />
         </state>
       </provider>
