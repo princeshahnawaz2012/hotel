@@ -85,9 +85,9 @@
             {
                 position: absolute;
                 left: 8px;
-                top: -56px;
+                top: -67px;
                 width: 240px;
-                height: 885px;
+                height: 697px;
                 transform: rotate(180deg);
                 -ms-transform: rotate(180deg); /* IE 9 */
                 -webkit-transform: rotate(180deg); /* Safari and Chrome */
@@ -101,36 +101,36 @@
                 right: 13px;
                 top: -56px;
                 width: 240px;
-                height: 885px
+                height: 697px;
 
             }
             #img1
             {
-                height: 535px;
+                height: 473px;
                 width:145px;
                 margin-top: 56px
             }
             #img2
             {
-                height: 535px;
+                height: 484px;
                 width:141px;
                 margin-top: 45px
             }
             #img3
             {
-                height: 593px;
+                height: 540px;
                 width: 167px;
                 margin-left: -7px
             }
             #img4
             {
-                height: 535px;
+                height: 496px;
                 width:155px;
                 margin-top: 47px
             }
             #img5
             {
-                height: 535px;
+                height: 482px;
                 width:160px;
                 margin-top: 56px
             }
@@ -297,7 +297,7 @@
 
 
     </div>
-<img src="<?php echo base_url('image/new/bawah.png'); ?>" alt=""  style="position: relative;height: 153px;width: 786px;margin-top: 49px">
+<img src="<?php echo base_url('image/new/bawah.png'); ?>" alt=""  style="position: relative;height: 105px;width: 786px;">
 
 <!--footer-->
 
