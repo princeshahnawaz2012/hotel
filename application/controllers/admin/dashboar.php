@@ -1,5 +1,6 @@
 <?php
 class Dashboar extends CI_Controller {
+	#constructer to autoload model_center,model_visit
     function __construct() {
         parent::__construct();
         $this->load->model('model_conter');
