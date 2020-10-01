@@ -22,7 +22,7 @@
 body
 {
     text-align: center;
-    background-color: black
+    background-color: black;
 }
 
 .page_wrap
@@ -38,7 +38,7 @@ a
 {
     color: black;
     text-decoration: none;
-    outline: none
+    outline: none;
 }
 
 p
