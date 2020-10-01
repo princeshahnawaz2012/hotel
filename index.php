@@ -28,9 +28,9 @@
  * By default development will show errors but testing and live will hide them.
  */
 
-if (defined('ENVIRONMENT'))
+if (defined('envorment'))
 {
-	switch (ENVIRONMENT)
+	switch (envorment)
 	{
 		case 'development':
 			error_reporting(E_ALL);
@@ -151,7 +151,7 @@ if (defined('ENVIRONMENT'))
 	// Is the system path correct?
 	if ( ! is_dir($system_path))
 	{
-		exit("Your system folder path does not appear to be set correctly. Please open the following file and correct this: ".pathinfo(__FILE__, PATHINFO_BASENAME));
+		exit("Your system folder path does not appear to be set correctly. Please open the following file to open: ".pathinfo(__FILE__, PATHINFO_BASENAME));
 	}
 
 /*
